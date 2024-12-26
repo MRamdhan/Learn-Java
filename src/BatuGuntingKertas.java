@@ -21,7 +21,7 @@ public class BatuGuntingKertas {
             }
 
             if (pilihanPengguna < 0 || pilihanPengguna > 2) {
-                System.out.println("Pilihan tidak valid. Coba lagi.");
+                System.out.println("Pilihan tidak valid. Coba lagi");
                 continue;
             }
 
@@ -35,9 +35,9 @@ public class BatuGuntingKertas {
             } else if ((pilihanPengguna == 0 && pilihanKomputer == 1) ||
                         (pilihanPengguna == 1 && pilihanKomputer == 2) ||
                         (pilihanPengguna == 2 && pilihanKomputer == 0)) {
-                System.out.println("Hasil: Anda Menang!");
+                System.out.println("Hasil: Anda Menang");
             } else {
-                System.out.println("Hasil: Komputer Menang!");
+                System.out.println("Hasil: Komputer Menang");
             }
         }
 

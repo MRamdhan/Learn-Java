@@ -36,7 +36,7 @@ public class TebakKata {
 
             if (!adaHuruf) {
                 kesempatan--;
-                System.out.println("Huruf tidak ditemukan.");
+                System.out.println("Huruf tidak ditemukan");
             }
 
             if (String.valueOf(progress).equals(kataPilihan)) {
